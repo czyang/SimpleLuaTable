@@ -17,7 +17,8 @@ return {
 }
 ```
 
->Limit: Not support array mixed table, like {a = 1, "a", 123, true}. 
+>Limit: Not support array mixed table, like {a = 1, "a", 123, true}.
+
 >This class maybe overengineer. To encode Lua, just create a JSON, replace "[]:" to "{}=" and insert a "return" before the string. Limit is same.
 
 ## Useage
